@@ -54,9 +54,9 @@ These Python scripts should be able to run with additional arguments specifying 
 
 For example:
 
-python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
+> python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
 
-python train_classifier.py DisasterResponse.db classifier.pkl
+> python train_classifier.py DisasterResponse.db classifier.pkl
 
 Run the following command in the app's directory to run your web app: 
 
