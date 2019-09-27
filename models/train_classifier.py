@@ -76,10 +76,10 @@ def build_model():
     clf = MultiOutputClassifier(forest, n_jobs=1)
 
     # build the pipeline
-    pipeline = Pipeline([('vect', vect), ('tfidf', tfidf), ('clf', clf)])
+    model = Pipeline([('vect', vect), ('tfidf', tfidf), ('clf', clf)])
     
     # use grid search to improve the model
- 
+    
     parameters = {
 
     'clf__estimator__n_estimators': [50, 100, 150],
@@ -89,9 +89,9 @@ def build_model():
      }
 
     model = GridSearchCV(pipeline, param_grid=parameters, n_jobs=4, verbose=2)
- 
+    
     return model
-
+    
 def evaluate_model(model, X_test, Y_test, category_names):
     '''
     INPUT: model - the model built in def build_model
