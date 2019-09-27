@@ -62,6 +62,9 @@ Run the following command in the app's directory to run your web app:
 
     `python run.py`
 
+### Visuals of the Training Data
+
+
 ### How to Contribute
 
 Any contribution to this repository is very welcome!
