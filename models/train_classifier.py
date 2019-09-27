@@ -76,7 +76,7 @@ def build_model():
     clf = MultiOutputClassifier(forest, n_jobs=1)
 
     # build the pipeline
-    model = Pipeline([('vect', vect), ('tfidf', tfidf), ('clf', clf)])
+    pipeline = Pipeline([('vect', vect), ('tfidf', tfidf), ('clf', clf)])
     
     # use grid search to improve the model
     
