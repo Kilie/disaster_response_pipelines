@@ -62,8 +62,17 @@ Run the following command in the app's directory to run your web app:
 
     `python run.py`
 
-### Visuals of the Training Data
+### Some Visuals of the Training Data
 
+![Distribution of Message Categories](https://github.com/Kilie/disaster_response_pipelines/blob/master/visuals/Distribution%20of%20Message%20Categories.png?raw=true)
+
+![Distribution of Genres](https://github.com/Kilie/disaster_response_pipelines/blob/master/visuals/Distribution%20of%20Genres.png?raw=true)
+
+![Top-10 Message Categories in the "direct" Genre](https://github.com/Kilie/disaster_response_pipelines/blob/master/visuals/Top-10%20Message%20Categories%20in%20the%20_direct_%20Genre.png?raw=true)
+
+![Top-10 Message Categories in the "news" Genre](https://github.com/Kilie/disaster_response_pipelines/blob/master/visuals/Top-10%20Message%20Categories%20in%20the%20_news_%20Genre.png?raw=true)
+
+![Top-10 Message Categories in the "social" Genre](https://github.com/Kilie/disaster_response_pipelines/blob/master/visuals/Top-10%20Message%20Categories%20in%20the%20_social_%20Genre.png?raw=true)
 
 ### How to Contribute
 
