@@ -80,4 +80,4 @@ Any contribution to this repository is very welcome!
 
 ### Acknowledgements
 
-Special thanks should go to [Figure Eight](https://www.figure-eight.com/) for providing the data!
+Special thanks goes to [Figure Eight](https://www.figure-eight.com/) for providing the data!
